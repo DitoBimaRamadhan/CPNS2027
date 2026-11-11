@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPNS2027 - Platform Belajar & Latihan Soal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">🏆 CPNS<span>2027</span></div>
+        <nav class="nav-menu">
+            <button class="nav-btn" onclick="showSection('home')">Home</button>
+            <div class="dropdown">
+                <button class="nav-btn">Materi ▼</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="loadMaterial('twk')">TWK</a>
+                    <a href="#" onclick="loadMaterial('tiu')">TIU</a>
+                    <a href="#" onclick="loadMaterial('tkp')">TKP</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="nav-btn">Latihan Soal ▼</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="startQuiz('twk')">Latihan TWK (100 Soal)</a>
+                    <a href="#" onclick="startQuiz('tiu')">Latihan TIU (100 Soal)</a>
+                    <a href="#" onclick="startQuiz('tkp')">Latihan TKP (100 Soal)</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="app-content" class="container">
+        <!-- Default Home Section -->
+        <section id="home" class="active-section">
+            <div class="hero">
+                <h1>Selamat Datang di Portal Sukses CPNS 2027</h1>
+                <p>Persiapkan diri Anda menghadapi seleksi CASN dengan materi komprehensif dan ratusan latihan soal berstandar CAT BKN.</p>
+                <div class="hero-stats">
+                    <div class="stat-card"><h3>TWK</h3><p>Tes Wawasan Kebangsaan</p></div>
+                    <div class="stat-card"><h3>TIU</h3><p>Tes Intelegensi Umum</p></div>
+                    <div class="stat-card"><h3>TKP</h3><p>Tes Karakteristik Pribadi</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Material Section -->
+        <section id="material-section" class="hidden-section">
+            <h2 id="material-title">Judul Materi</h2>
+            <div id="material-content" class="content-box"></div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz-section" class="hidden-section">
+            <div class="quiz-header">
+                <h2 id="quiz-title">Latihan Soal</h2>
+                <div class="timer">Soal: <span id="current-question-num">1</span> / <span id="total-questions">100</span></div>
+            </div>
+            <div id="quiz-container" class="content-box">
+                <!-- Question will be rendered here -->
+            </div>
+            <div class="quiz-controls">
+                <button id="prev-btn" onclick="prevQuestion()" disabled>Sebelumnya</button>
+                <button id="next-btn" onclick="nextQuestion()">Selanjutnya</button>
+                <button id="submit-btn" onclick="submitQuiz()" style="display:none; background-color: #ffd700; color: #000;">Kumpulkan & Lihat Hasil</button>
+            </div>
+        </section>
+
+        <!-- Result Section -->
+        <section id="result-section" class="hidden-section">
+            <h2>Hasil Latihan</h2>
+            <div class="score-card">
+                <h3>Skor Anda: <span id="final-score">0</span></h3>
+            </div>
+            <div id="discussion-container" class="content-box">
+                <!-- Discussions will be rendered here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

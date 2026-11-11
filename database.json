@@ -1,0 +1,132 @@
+{
+  "materials": {
+    "twk": {
+      "title": "Materi Tes Wawasan Kebangsaan (TWK)",
+      "content": "<h3>1. Pancasila</h3><p>Pancasila sebagai ideologi negara merupakan rumusan dan pedoman kehidupan berbangsa dan bernegara bagi seluruh rakyat Indonesia.</p><h3>2. Undang-Undang Dasar 1945</h3><p>Mencakup pemahaman mengenai konstitusi, sejarah amandemen, dan struktur ketatanegaraan Indonesia.</p><h3>3. Bhinneka Tunggal Ika</h3><p>Prinsip toleransi dan persatuan dalam keberagaman suku, agama, ras, dan antargolongan (SARA).</p><h3>4. NKRI</h3><p>Pemahaman mengenai sistem pemerintahan, desentralisasi, otonomi daerah, serta sejarah perjuangan bangsa.</p><br><p><em>Catatan: Anda dapat menambahkan materi secara lengkap ke dalam file database.json ini.</em></p>"
+    },
+    "tiu": {
+      "title": "Materi Tes Intelegensi Umum (TIU)",
+      "content": "<h3>1. Kemampuan Verbal</h3><p>Meliputi Sinonim, Antonim, Analogi kata, dan Silogisme (penarikan kesimpulan logika).</p><h3>2. Kemampuan Numerik</h3><p>Meliputi Berhitung Cepat, Deret Angka/Huruf, Perbandingan Kuantitatif, dan Soal Cerita matematika dasar.</p><h3>3. Kemampuan Figural</h3><p>Analogi gambar, Ketidaksamaan gambar, dan Serial gambar (pola berkelanjutan).</p>"
+    },
+    "tkp": {
+      "title": "Materi Tes Karakteristik Pribadi (TKP)",
+      "content": "<h3>1. Pelayanan Publik</h3><p>Sikap dan perilaku yang berorientasi pada kepuasan pelanggan/masyarakat.</p><h3>2. Jejaring Kerja</h3><p>Mampu membangun dan membina hubungan baik, berbagi informasi, dan berkolaborasi.</p><h3>3. Sosial Budaya</h3><p>Kemampuan beradaptasi dan bekerja sama di tengah masyarakat majemuk.</p><h3>4. TIK (Teknologi Informasi dan Komunikasi)</h3><p>Kemampuan mengoperasikan dan beradaptasi dengan kemajuan teknologi.</p><h3>5. Profesionalisme</h3><p>Tanggung jawab, disiplin, dan integritas dalam menjalankan tugas.</p><h3>6. Anti Radikalisme</h3><p>Menjaring pemahaman tentang toleransi, empati, dan sikap anti kekerasan/ekstremisme.</p>"
+    }
+  },
+  "questions": {
+    "twk": [
+      {
+        "id": 101,
+        "text": "Rumusan Pancasila yang sah dan benar terdapat dalam Pembukaan UUD 1945 alinea ke...",
+        "options": [
+          {"label": "A", "text": "Pertama", "score": 0},
+          {"label": "B", "text": "Kedua", "score": 0},
+          {"label": "C", "text": "Ketiga", "score": 0},
+          {"label": "D", "text": "Keempat", "score": 5},
+          {"label": "E", "text": "Kelima", "score": 0}
+        ],
+        "explanation": "Rumusan Pancasila yang sah dan resmi sebagai dasar negara tercantum dalam Pembukaan UUD 1945 alinea keempat."
+      },
+      {
+        "id": 102,
+        "text": "Sikap yang paling tepat dalam mengimplementasikan sila kedua Pancasila (Kemanusiaan yang Adil dan Beradab) di lingkungan kampus atau tempat kerja adalah...",
+        "options": [
+          {"label": "A", "text": "Mengikuti kegiatan keagamaan secara rutin", "score": 0},
+          {"label": "B", "text": "Tidak semena-mena terhadap rekan kerja atau teman", "score": 5},
+          {"label": "C", "text": "Bangga menggunakan produk dalam negeri", "score": 0},
+          {"label": "D", "text": "Menyelesaikan masalah melalui musyawarah mufakat", "score": 0},
+          {"label": "E", "text": "Berhemat dan menabung untuk masa depan", "score": 0}
+        ],
+        "explanation": "Sila kedua berkaitan dengan harkat dan martabat manusia, tidak semena-mena terhadap orang lain, menjunjung tinggi nilai kemanusiaan, dan berani membela kebenaran."
+      },
+      {
+        "id": 103,
+        "text": "Lembaga yang berwenang memutus pembubaran partai politik di Indonesia adalah...",
+        "options": [
+          {"label": "A", "text": "Mahkamah Agung (MA)", "score": 0},
+          {"label": "B", "text": "Dewan Perwakilan Rakyat (DPR)", "score": 0},
+          {"label": "C", "text": "Mahkamah Konstitusi (MK)", "score": 5},
+          {"label": "D", "text": "Komisi Pemilihan Umum (KPU)", "score": 0},
+          {"label": "E", "text": "Presiden", "score": 0}
+        ],
+        "explanation": "Sesuai Pasal 24C ayat (1) UUD 1945, Mahkamah Konstitusi berwenang mengadili pada tingkat pertama dan terakhir yang putusannya bersifat final untuk membubarkan partai politik."
+      }
+    ],
+    "tiu": [
+      {
+        "id": 201,
+        "text": "SINONIM: EVOKASI = ...",
+        "options": [
+          {"label": "A", "text": "Penggugah rasa", "score": 5},
+          {"label": "B", "text": "Penilaian", "score": 0},
+          {"label": "C", "text": "Provokasi", "score": 0},
+          {"label": "D", "text": "Penyelamatan", "score": 0},
+          {"label": "E", "text": "Izin keluar", "score": 0}
+        ],
+        "explanation": "Menurut KBBI, Evokasi adalah daya penggugah rasa (misal melalui puisi, dsb). Jadi sinonim yang tepat adalah penggugah rasa."
+      },
+      {
+        "id": 202,
+        "text": "DERET ANGKA: 3, 5, 9, 15, 23, ...",
+        "options": [
+          {"label": "A", "text": "27", "score": 0},
+          {"label": "B", "text": "29", "score": 0},
+          {"label": "C", "text": "31", "score": 0},
+          {"label": "D", "text": "33", "score": 5},
+          {"label": "E", "text": "35", "score": 0}
+        ],
+        "explanation": "Pola deret adalah penambahan bilangan genap berurutan: +2, +4, +6, +8. Maka selanjutnya adalah 23 + 10 = 33."
+      },
+      {
+        "id": 203,
+        "text": "Sebuah pekerjaan dapat diselesaikan oleh 12 orang dalam waktu 20 hari. Jika pekerjaan tersebut ingin diselesaikan dalam waktu 15 hari, berapa tambahan pekerja yang diperlukan?",
+        "options": [
+          {"label": "A", "text": "4 orang", "score": 5},
+          {"label": "B", "text": "6 orang", "score": 0},
+          {"label": "C", "text": "8 orang", "score": 0},
+          {"label": "D", "text": "10 orang", "score": 0},
+          {"label": "E", "text": "16 orang", "score": 0}
+        ],
+        "explanation": "Gunakan perbandingan berbalik nilai: (P1 x H1) = (P2 x H2) -> (12 x 20) = (P2 x 15) -> 240 = 15 P2 -> P2 = 16 orang. Tambahan pekerja = 16 - 12 = 4 orang."
+      }
+    ],
+    "tkp": [
+      {
+        "id": 301,
+        "text": "Anda ditugaskan memimpin sebuah tim untuk proyek penting yang melibatkan beberapa departemen. Di tengah jalan, terjadi konflik antar anggota beda departemen yang menghambat kerja tim. Sikap Anda?",
+        "options": [
+          {"label": "A", "text": "Melaporkan mereka ke atasan masing-masing agar ditegur.", "score": 2},
+          {"label": "B", "text": "Membiarkan saja karena mereka sudah dewasa dan bisa menyelesaikan sendiri.", "score": 1},
+          {"label": "C", "text": "Mengumpulkan seluruh anggota tim untuk berdiskusi mencari akar permasalahan dan solusi bersama.", "score": 5},
+          {"label": "D", "text": "Mengambil alih tugas mereka agar proyek tetap berjalan tanpa hambatan.", "score": 3},
+          {"label": "E", "text": "Menjadi penengah dan mendengarkan keluhan secara personal satu per satu.", "score": 4}
+        ],
+        "explanation": "C (5 poin): Sebagai pemimpin (Aspek Profesionalisme & Jejaring Kerja), harus bisa menjadi fasilitator dengan mengedepankan komunikasi dan musyawarah. E (4), D (3), A (2), B (1)."
+      },
+      {
+        "id": 302,
+        "text": "Saat Anda sedang sibuk mengerjakan laporan akhir bulan yang harus disetor siang ini, seorang warga/klien datang dengan raut wajah kebingungan menanyakan prosedur pelayanan di instansi Anda. Sikap Anda?",
+        "options": [
+          {"label": "A", "text": "Menyuruhnya membaca papan informasi prosedur yang ada di depan ruangan.", "score": 2},
+          {"label": "B", "text": "Menghentikan pekerjaan sejenak, tersenyum, dan menjelaskan prosedur yang ditanyakan dengan ramah.", "score": 5},
+          {"label": "C", "text": "Meminta rekan kerja lain yang sedang tidak sibuk untuk melayaninya.", "score": 4},
+          {"label": "D", "text": "Pura-pura tidak melihat karena deadline laporan sangat mendesak.", "score": 1},
+          {"label": "E", "text": "Menjawab pertanyaannya secara singkat agar cepat selesai sambil tetap mengetik.", "score": 3}
+        ],
+        "explanation": "B (5 poin): Menunjukkan aspek Pelayanan Publik yang sangat baik. Klien butuh dibantu dan disapa dengan ramah tanpa mengabaikan etika, meski kita sedang sibuk. C (4), E (3), A (2), D (1)."
+      },
+      {
+        "id": 303,
+        "text": "Di kantor Anda baru saja diimplementasikan sistem absensi dan pelaporan kinerja berbasis aplikasi smartphone (TIK). Anda menemukan bahwa salah satu senior Anda kesulitan menggunakannya. Sikap Anda?",
+        "options": [
+          {"label": "A", "text": "Membiarkan saja, itu urusan bagian IT untuk melatihnya.", "score": 1},
+          {"label": "B", "text": "Menawarkan bantuan secara personal dan perlahan mengajarkannya hingga ia paham.", "score": 5},
+          {"label": "C", "text": "Membantunya mengisikan absensi setiap hari dari handphonenya.", "score": 2},
+          {"label": "D", "text": "Memberikan buku panduan atau PDF manual kepadanya agar ia membaca sendiri.", "score": 3},
+          {"label": "E", "text": "Menyarankan atasan untuk memaklumi senior tersebut jika laporannya terlambat.", "score": 4}
+        ],
+        "explanation": "B (5 poin): Menunjukkan kemampuan penguasaan TIK sekaligus jejaring kerja (sosial budaya di tempat kerja) yang adaptif dan solutif. Mengajarkan agar dia mandiri. E (4), D (3), C (2), A (1)."
+      }
+    ]
+  }
+}
